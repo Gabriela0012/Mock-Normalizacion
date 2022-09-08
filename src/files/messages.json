@@ -1,0 +1,132 @@
+[ 
+	{
+		"author": {
+			"email": "gabega@gmail.com",
+			"name": "Gabriela",
+			"last_name": "Arenas",
+			"age": 33,
+			"nickname": "Gabe",
+			"avatar": "foto-gabe"
+		},
+		"text": "hola como estas",
+		"id": 1,
+		"timestamp": "2022-09-08 19:04:22"
+	},
+	{
+		"author": {
+			"email": "gabega@gmail.com",
+			"name": "Gabriela",
+			"last_name": "Arenas",
+			"age": 33,
+			"nickname": "Gabe",
+			"avatar": "foto-gabe"
+		},
+		"text": "como te va",
+		"id": 2,
+		"timestamp": "2022-09-08 19:05:06"
+	},
+	{
+		"author": {
+			"email": "gabega@gmail.com",
+			"name": "Gabriela",
+			"last_name": "Arenas",
+			"age": 33,
+			"nickname": "Gabe",
+			"avatar": "foto-gabe"
+		},
+		"text": "bien",
+		"id": 3,
+		"timestamp": "2022-09-08 19:05:43"
+	},
+	{
+		"author": {
+			"email": "german@gmail.com",
+			"name": "German",
+			"last_name": "Arenas",
+			"age": 33,
+			"nickname": "Germancito",
+			"avatar": "foto-ger"
+		},
+		"text": "hola",
+		"id": 4,
+		"timestamp": "2022-09-08 19:05:54"
+	},
+	{
+		"author": {
+			"email": "german@gmail.com",
+			"name": "German",
+			"last_name": "Arenas",
+			"age": 33,
+			"nickname": "Germancito",
+			"avatar": "foto-ger"
+		},
+		"text": "como estas",
+		"id": 5,
+		"timestamp": "2022-09-08 19:06:28"
+	},
+	{
+		"author": {
+			"email": "german@gmail.com",
+			"name": "German",
+			"last_name": "Arenas",
+			"age": 33,
+			"nickname": "Germancito",
+			"avatar": "foto-ger"
+		},
+		"text": "yo bien",
+		"id": 6,
+		"timestamp": "2022-09-08 19:06:35"
+	},
+	{
+		"author": {
+			"email": "german@gmail.com",
+			"name": "German",
+			"last_name": "Arenas",
+			"age": 33,
+			"nickname": "Germancito",
+			"avatar": "foto-ger"
+		},
+		"text": "vos",
+		"id": 7,
+		"timestamp": "2022-09-08 19:06:42"
+	},
+	{
+		"author": {
+			"email": "german@gmail.com",
+			"name": "German",
+			"last_name": "Arenas",
+			"age": 33,
+			"nickname": "Germancito",
+			"avatar": "foto-ger"
+		},
+		"text": "muy bien",
+		"id": 8,
+		"timestamp": "2022-09-08 19:06:48"
+	},
+	{
+		"author": {
+			"email": "gabega@gmail.com",
+			"name": "Gabriela",
+			"last_name": "Arenas",
+			"age": 33,
+			"nickname": "Gabe",
+			"avatar": "foto-ger"
+		},
+		"text": "muy bien",
+		"id": 9,
+		"timestamp": "2022-09-08 19:06:57"
+	},
+	{
+		"author": {
+			"email": "gabega@gmail.com",
+			"name": "Gabriela",
+			"last_name": "Arenas",
+			"age": 33,
+			"nickname": "Gabe",
+			"avatar": "foto-gabe"
+		},
+		"text": "bien",
+		"id": 10,
+		"timestamp": "2022-09-08 19:07:22"
+	}
+]

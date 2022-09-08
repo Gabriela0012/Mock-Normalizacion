@@ -1,0 +1,77 @@
+<div class="main">
+    <div class="productSide col-5">
+        <div class="newProduct">
+            <h2 class="formTitle d-flex justify-content-center">Agregar un producto</h2>
+            <form id="addProduct">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Nombre del producto:</label>
+                    <input type="text" class="form-control" id="name" required><br>
+                    <label for="exampleInputEmail1">Precio:</label>
+                    <input type="number" class="form-control" id="price" required><br>
+                    <label for="exampleInputEmail1">Imagen URL:</label>
+                    <input type="text" class="form-control" id="thumbnail" required>
+                </div>
+            </form>
+                <button id="btnSubmit" class="btn btn-info">Agregar</button>
+        </div>
+
+        <div class="products">
+            <div>
+                <h2 class="d-flex justify-content-center">Productos Agregados</h2>
+            </div>
+            <div class="listProducts">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">producto</th>
+                            <th scope="col">precio</th>
+                            <th scope="col">imagen</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listProducts">
+
+                    </tbody>
+
+                </table>
+              
+            </div>
+        </div>
+    </div>
+
+    <div class="chatSide col-4">
+        <div class="casing ">
+            <div class="window">
+                <div class="header" id="header">Usuario</div>
+
+                <div class="chats box" id="chats">
+
+                    {{!-- muestra los mensajes --}}
+
+                </div>
+
+                <div class="new-chat d-flex-row justify-content-between">
+                    <input type="text" class="col-10" id="chatBox" />
+                    <button id="send"class="btn btn-info">Enviar</button>
+                </div>
+            </div>
+            <div class="home-btn">
+                <div class="hb-square"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+crossorigin="anonymous"></script>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="./scripts/expand.js"></script>
+<script src="./scripts/index.js"></script>
+{{!-- <script src="./scripts/main.js"></script> --}}
