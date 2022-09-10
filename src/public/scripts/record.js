@@ -41,6 +41,6 @@ button.addEventListener('click', (e) => {
 		}),
 	})
 
-	location.href = 'http://localhost:8080/products'
+	location.href = 'http://localhost:8080/chat'
 
 })
